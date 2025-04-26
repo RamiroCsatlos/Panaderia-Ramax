@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scones de Queso</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-nombre">
+            <a href="../index.html"><img src="../img/logo.png" alt="Logo de la panadería"></a>
+            <h1>Panaderia Ramax</h1>
+            <button id="hamburger-menu" class="hamburger" aria-label="Abrir menú de navegación">☰</button>
+        </div>
+        <nav>
+            <ul class="header-menu">
+                <li><a href="../listado/listado.html">Listado de recetas</a></li>
+                <li><a href="../sobrenosotros/sobrenosotros.html">Sobre nosotros</a></li>
+                <li><a href="../contacto/contacto.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <div class="receta-container">
+        <section id="info-receta" class="info-receta">
+            <h2>Scones de Queso</h2>
+            <article class="imagen">
+                <img src="../img/scones de queso.jpg" alt="Scones de queso">         
+                <p>El pan Flauta, como se denomina en Argentina, o baguette es una variedad de pan originaria de Francia que se caracteriza por una forma alargada. Es uno de los formatos de pan más conocidos, producidos y consumidos a nivel internacional.</p>
+                <p>Suele ser una barra de pan de 250 gramos que se acompaña en cualqueir comida. Una especialidad de corteza crujiente y de miga esponjosa.</p>
+        </section>
+        <section id="receta" class="receta">
+            <div class="ingredientes">
+                <h3>Ingredientes</h3>
+                <label for="cantidad-unidades">Cantidad de Scones de 100g deseados:</label>
+                <select id="cantidad-unidades" data-base="10">
+                    <option value="10">10 Scones</option>
+                    <option value="15">15 Scones</option>
+                    <option value="20">20 Scones</option>
+                    <option value="25">25 Scones</option>
+                    </select>
+                <nav>
+                    <ul class="listado-ingredientes">
+                        <li data-cantidad="420" data-unidad="g">Harina 0000: <span>450 g</span></li>
+                        <li data-cantidad="250" data-unidad="g">Queso parmesano: <span>250 g</span></li>
+                        <li data-cantidad="90" data-unidad="g">Manteca: <span>90 g</span></li>
+                        <li data-cantidad="2" data-unidad="cdtas">Sal: <span>2 cdtas</span></li>
+                        <li data-cantidad="2" data-unidad="cdtas">Azucar: <span>2 cdtas</span></li>
+                        <li data-cantidad="2" data-unidad="cdtas">Polvo de hornear: <span>2 cdtas</span></li>
+                        <li data-cantidad="200" data-unidad="ml">Leche: <span>200 ml</span></li>
+                        <li data-cantidad="" data-unidad="">Pimienta negra <span></span></li>
+                    </ul>
+                </nav>
+            </div>
+            <h3>Paso a paso</h3>
+            <ul class="pasos">
+                <li>Disolver la levadura fresca en agua a temperatura ambiente o levemente tibia.</li>
+                <li>En un recipiente colocar la harina con la sal, mezclarlas y luego agregar la mezcla de leavura en el centro.</li>
+                <li>Agregar el resto del agua de a poco que se una todo.</li>
+                <li>Llevar la masa a una superficie lisa y amasar hasta obtener una masa lisa y elástica (si es necesario usar más cantidad de agua), luego dejar reposar por 40 minutos o hasta duplicar su volumen.</li>
+                <li>Colocar un poco de harina sobre una superficie, volcar en ella la masa y dividirla en 6 trozos iguales. Luego hacer un bollo con cada uno y dejarlos reposar por 15 minutos.</li>
+                <li>Pasado el tiempo, formar rectángulos con cada uno de los bollos para luego darle la forma de flauta. Siempre tratando la masa con mucho cuidado.</li>
+                <li>Colocar bastante harina sobre una fuente de horno y acomodar las flautas sobre ella. Dejar levar 40 minutos o hasta que dupliquen su tamaño.</li>
+                <li>Realizar unos 3 pequeños cortes por arriba e introducirlas al horno precalentado a (150-160)°C por 45 minutos o hasta que esten dorados (para obtener una corteza mas crujiente, colocar una fuente con agua caliente en el horno antes de hornear los panes).</li>
+            </ul>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2025 Panaderia Ramax</p>
+</footer>
+<div class="herramientas-widget">
+    <div class="widget-toggle">
+        <img src="../img/flecha.png" alt="Abrir/Cerrar Herramientas" class="flecha-icono">
+    </div>
+    <div class="widget-contenido">
+    <div class="herramienta">
+        <a href="https://www.omnicalculator.com/food/cups-to-pounds" target="_blank">
+            <img src="../img/taza.png" alt="Convertidor de Medidas">
+            <span>Convertidor de Medidas</span>
+        </a>
+    </div>
+    <div class="herramienta">
+        <a href="https://rubhima.com/es/el-glosario-especifico-de-la-panaderia/" target="_blank">
+            <img src="../img/glosario.png" alt="Glosario de Panadería">
+            <span>Glosario de Panadería</span>
+        </a>
+    </div>
+    <div class="herramienta">
+        <a href="http://www.guiamiguelin.com/util/temphorno.html" target="_blank">
+            <img src="../img/horno.png" alt="Tabla de Cocción">
+            <span>Tabla de Cocción</span>
+        </a>
+    </div>
+</div>
+</body>
+<script src="../script.js"></script>
+</html>
